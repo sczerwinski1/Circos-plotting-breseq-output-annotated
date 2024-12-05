@@ -15,11 +15,4 @@ This script requires the following R packages:
 - dplyr
 - tidyr
 
-Please ensure these are installed before running the script. Most can be installed via CRAN or Bioconductor:
-```bash
-install.packages(c("circlize", "RColorBrewer", "readr", "rvest", "dplyr", "tidyr"))
-
-## For Bioconductor packages
-if (!requireNamespace("BiocManager", quietly = TRUE))
-    install.packages("BiocManager")
-BiocManager::install(c("VariantAnnotation","Rsamtools","GenomicRanges","rtracklayer","Biostrings"))
+Please ensure these are installed before running the script.
